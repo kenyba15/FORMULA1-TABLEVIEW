@@ -22,6 +22,12 @@ Con el metodo getDriversByYear podemos acceder a los registros de cada conductor
 Accedimos al repositorio correspondiente, y a la lista de cada uno, realizando un query especifico para elegir solamente a los conductores a los cuales les corresponda el año el cual seleccionamos
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/c86ed754-5c06-4e1c-a868-810cea628288)
 
+En la clase App accedemos a cada uno de los arraylist creados sobre cada tabla, las cuales seran Drivers y Constructors y usando FXcollections creamos una lista observable vacia, de igual manera creamos un tableview y un combobox el cual nos servira para elegir de una lista despegable una opcion, la cual sera el año el cual queremos obtener, creamos una escena para cada uno de las tablas con sus registros.
+
+![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/119c5774-bf95-45a1-bbbe-37527dc44d9b)
+Yo decidi agregarle color a cada uno para que no se vea tan simple, usando el SetStyle, despues configuramos cada uno de los datos que iran en cada una de las tablas las cuales creamos en el mismo metodo, para al final agregar todas al metodo driverTableView, realizamos lo mismo para el metodo constructors, tambien fue creado un metodo filterDriversByYear el mismo accede a la lista de conductores, el cual al principio limpia la tabla para despues mostrar los conductores que correspondan al año elegido.
+
+![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/fff0177e-60dc-47c8-bcef-bc29ac8160ea)
 
 
 ## EJECUCION

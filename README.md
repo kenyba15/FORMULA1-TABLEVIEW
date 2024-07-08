@@ -18,8 +18,11 @@ Se creo un metodo para acceder a los conductores dependiendo el año elegido, re
 
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/1f41e413-e886-4a01-bf5b-9c177896ffcc)
 
-Se realizo un metodo el cual usaremos con un boton para elegir un año correspondiente, de todas formas eso se explicara de una manera detallada mas adelante
-Accedimos al repositorio correspondiente, y a la lista de cada uno
+Con el metodo getDriversByYear podemos acceder a los registros de cada conductor a los que les correspondera el año seleccionado.
+Accedimos al repositorio correspondiente, y a la lista de cada uno, realizando un query especifico para elegir solamente a los conductores a los cuales les corresponda el año el cual seleccionamos
+![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/c86ed754-5c06-4e1c-a868-810cea628288)
+
+
 
 ## EJECUCION
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/9f65e2f1-8e55-4245-8abd-68c78905b403)

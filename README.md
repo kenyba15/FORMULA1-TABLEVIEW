@@ -4,16 +4,20 @@
 
 ### CONEXION
 Para poder realizar la conexion en un principio tenemos que descargar el conector de la base de datos especifica la cual usaremos, en mi caso yo use el conector de MySQL, despues para poder acceder a ella desde el codigo tuvimos que agregar el url en el que se encuentra la base de datos especifica, asi como el usuario y la contraseña correspondiente
+
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/95469a54-5d37-4e0a-bde0-e6a54fb13c0c)
 
 Para poder acceder a la conexion dentro del codigo necesitaremos la sentencia getConnection la cual nos servira para acceder a la base de datos mediante cada uno de los atributos los cuales ya han sido especificados, se realiza el Query sobre a lo que se quiere acceder en la base de datos
+
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/f595f5d1-08e1-4b7f-a351-5fc1f01f0536)
 Se realiza el query y si todo esta bien accedemos a la base de datos de forma facil
 De todas formas para que esto funcione debemos tener una clase con cada uno de los atributos, gets y sets correspondientes
 Al acceder a la base de datos definimos cada tipo de datos para que asi coincida con el tipo de dato de la tabla correspondiente en la base de datos y de esta forma cada uno de los datos de cada registro se ingresan en el codigo, para que despues con un metodo correspondiente puedan ser mostrados con un tableview.
 Cada uno de los datos obtenidos de los registros son almacenados en un Arraylist, el cual puede ser mostrado con el metodo dentro de Main, pero de eso no estamos hablando, hablare acerca del tableview, en la clase App
 Se creo un metodo para acceder a los conductores dependiendo el año elegido, realizando un Query en Sql pudimos obtener cada uno de los años de la tabla drivers, los que se repiten no se toman en cuenta y solamente se toma cada año unico.
-![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/dfd48732-03d0-4c8f-aec4-6176ebc76e09)
+
+![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/1f41e413-e886-4a01-bf5b-9c177896ffcc)
+
 Se realizo un metodo el cual usaremos con un boton para elegir un año correspondiente, de todas formas eso se explicara de una manera detallada mas adelante
 Accedimos al repositorio correspondiente, y a la lista de cada uno
 

@@ -35,11 +35,12 @@ Yo decidi agregarle color a cada uno para que no se vea tan simple, usando el Se
 ## EJECUCION
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/9f65e2f1-8e55-4245-8abd-68c78905b403)
 
+![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/e2492d04-8986-4223-b2b8-cea52a228b67)
+
 
 ## CAPTURAS DEL CODIGO
 ### MAIN
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/0814cf46-8293-4649-ac60-f67084b93ec1)
-![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/e2492d04-8986-4223-b2b8-cea52a228b67)
 
 ### APP
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/c4bb6f33-e531-4fe2-aa07-23fe2877d9af)

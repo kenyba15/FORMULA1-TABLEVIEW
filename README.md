@@ -10,6 +10,7 @@ Para poder realizar la conexion en un principio tenemos que descargar el conecto
 Para poder acceder a la conexion dentro del codigo necesitaremos la sentencia getConnection la cual nos servira para acceder a la base de datos mediante cada uno de los atributos los cuales ya han sido especificados, se realiza el Query sobre a lo que se quiere acceder en la base de datos
 
 ![image](https://github.com/kenyba15/FORMULA1-TABLEVIEW/assets/168501498/f595f5d1-08e1-4b7f-a351-5fc1f01f0536)
+
 Se realiza el query y si todo esta bien accedemos a la base de datos de forma facil
 De todas formas para que esto funcione debemos tener una clase con cada uno de los atributos, gets y sets correspondientes
 Al acceder a la base de datos definimos cada tipo de datos para que asi coincida con el tipo de dato de la tabla correspondiente en la base de datos y de esta forma cada uno de los datos de cada registro se ingresan en el codigo, para que despues con un metodo correspondiente puedan ser mostrados con un tableview.
